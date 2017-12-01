@@ -9,9 +9,10 @@ npm start
 Environment:
 
 > Node.js 8.6.0
+
 > Apache reverse proxy
 
-# create self-signed certificate 
+# Create self-signed certificate 
 
 This application is used via Cloudflare and a self-signed certficate is sufficient.  You can generate a certificate with:
 
