@@ -35,7 +35,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-certs/
+certs/info.btcz.rocks.key
+certs/info.btcz.rocks.crt
 
 # Typescript v1 declaration files
 typings/
