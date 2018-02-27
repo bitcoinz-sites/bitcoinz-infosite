@@ -3,6 +3,7 @@ var path = require('path');
 var app = express();
 var https = require('https');
 var fs = require('fs');
+var settings = require('./libs/settings');
 
 // Self-signed SSL certs
 // created with 'openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout info.btcz.rocks.key -out info.btcz.rocks.crt'
@@ -29,6 +30,8 @@ app.use(express.static(__dirname + '/public/css'));
 app.use(express.static(__dirname + '/public/images'));
 //Store all IMAGES in images folder
 
+app.set('panels', settings.panels);
+//Locals
 
 app.get('/',function(req,res){
   res.sendFile('index.html');
