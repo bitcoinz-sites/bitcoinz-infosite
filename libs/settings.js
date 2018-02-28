@@ -1,5 +1,8 @@
 var settings = {};
 
+settings.title = "BitcoinZ Progress";
+
+
 settings.panels = {
 	"proposals": {"title": "Proposals", 
 		      "headings": {
@@ -23,6 +26,5 @@ settings.panels = {
 	                     }
 	
 			};
-
 
 module.exports = settings;
