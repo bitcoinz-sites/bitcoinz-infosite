@@ -6,6 +6,10 @@ head
   link(rel='stylesheet', href='css/style.css')
   script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
   script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+
+each panel in settings.panels
+ li
+  span #{panel.title}
 nav.navbar.navbar-default
   .container-fluid
     .navbar-header
@@ -43,6 +47,17 @@ nav.navbar.navbar-default
     a(href='https://shop.spreadshirt.com/BitcoinZ/', target='_blank')
       | Support BitcoinZ - Get your T-Shirt, Hoodie, Mug, Apron, Phone Case, or more here!
   .row.vertical-center-row
+    each panel, index in settings.panels
+     div(id=panel.title).panel.panel-primary
+      .panel-heading
+        h3.panel-title #{panel.title}
+      .panel-body
+       span.container
+        table.table.table-striped.table-hover.table-bordered
+         thead
+          tr
+           each heading in settings.panels[index].headings
+            th #{heading}
     #proposals.panel.panel-primary
       .panel-heading
         h3.panel-title Proposals
