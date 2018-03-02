@@ -58,6 +58,10 @@ nav.navbar.navbar-default
           tr
            each heading in settings.panels[index].headings
             th #{heading}
+           tbody
+            tr
+             each datarow in panel.headings
+               td #{datarow}
     #proposals.panel.panel-primary
       .panel-heading
         h3.panel-title Proposals
