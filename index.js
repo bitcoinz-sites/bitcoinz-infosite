@@ -34,6 +34,7 @@ app.set('panels', settings.panels);
 app.set('title', settings.title);
 
 
+
 /* ---comment out for testing PUG
 app.use(express.static(__dirname + '/public/css'));
 //Store all CSS in css folder
