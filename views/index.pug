@@ -59,10 +59,17 @@ nav.navbar.navbar-default
            each heading in settings.panels[index].headings
             th #{heading}
          tbody
-          tr
-           - console.log(panel);
-           each datarow in panel.info
-            td #{datarow}
+          - var n = 1;
+           each datarow, dataindex in settings.panels[index].info
+            tr
+             each row, rowindex in datarow
+              - console.log(rowindex);
+               if rowindex == "numb"
+                td= n
+                - n++;
+               else
+                td= row
+ 
     #proposals.panel.panel-primary
       .panel-heading
         h3.panel-title Proposals
