@@ -67,6 +67,11 @@ nav.navbar.navbar-default
                if rowindex == "numb"
                 td= n
                 - n++;
+               else if rowindex == "links"
+                each link in row     
+                 td <a href="#{link[1]}" target="_blank"> #{link[0]} </a>
+               else if rowindex == "web_link"
+                td <a href="#{row}"> Link </a> 
                else
                 td= row
  
