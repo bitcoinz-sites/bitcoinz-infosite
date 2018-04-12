@@ -63,15 +63,31 @@ nav.navbar.navbar-default
            each datarow, dataindex in settings.panels[index].info
             tr
              each row, rowindex in datarow
-              - console.log(rowindex);
                if rowindex == "numb"
                 td= n
                 - n++;
                else if rowindex == "links"
-                each link in row     
-                 td <a href="#{link[1]}" target="_blank"> #{link[0]} </a>
+                td
+                 - var i = 1;
+                  - function numKeys(obj) {
+                  -  var keycount = 0;
+                  -  for (var key in obj) {
+                  -   if (obj.hasOwnProperty(key)) {
+                  -    ++keycount;
+                  -   }
+                  -  }
+                  -  return keycount;
+                  - }
+                  - var numlinks = numKeys(row);
+                 each link, linkindex in row
+                   a(href=link[1] target="_blank") #{link[0]}
+                    if (i < numlinks)
+                     - console.log(numlinks);
+                      |  </a>/ 
+                      - i++;
                else if rowindex == "web_link"
-                td <a href="#{row}"> Link </a> 
+                td
+                  a(href=row target="_blank") Link 
                else
                 td= row
  

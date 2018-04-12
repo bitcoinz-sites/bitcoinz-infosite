@@ -20,6 +20,10 @@ var options = {
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+// set favicon
+
+app.use('/favicon.png', express.static('favicon/favicon.png'));
+
 
 // serve views/index.pug as home page
 app.get('/', function (req, res) {
