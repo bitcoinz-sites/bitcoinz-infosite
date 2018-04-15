@@ -12,10 +12,17 @@ settings.panels = {
 			"budget": "Budget",
 			"status": "Status",
 			"links": "Links"
-		}, 
+		},
+                "footer_buttons": {
+			"active": "true",
+			"buttons": {
+				"button1": ["Submit New Proposal", "https://forum.btcz.rocks/t/read-first-proposal-submission-template/54"]
+                               }
+                 },
 		"info": [ 
 		        {
     		        "numb": "",
+                        "isnew": "true",
 			"type": "Community Campaign",
 			"name": "Community YouTube / Twitter Campaign #1",
 			"budget": "100,000 BTCZ per week / one week duration",
@@ -27,6 +34,7 @@ settings.panels = {
 			},
 		        {          
 			"numb": "",
+                        "isnew": "false",
 			"type": "Community Competition",
 			"name": "Community Competition #1",
 			"budget": "45,000 - 75,000 BTCZ",
@@ -38,6 +46,7 @@ settings.panels = {
                         },
 			{
 			"numb": "",
+                        "isnew": "false",
 			"type": "PR & Media",
 			"name": "PR & Media Campaign #1",
 			"budget": "150,000 BTCZ +25,000 BTCZ to add new country",
@@ -49,6 +58,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Twitch Tournament",
 			"name": "Twitch Tournament Sponsorship #1",
 			"budget": "$850 USD in BTCZ",
@@ -61,6 +71,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "GUI Miner",
 			"name": "Branded - All In One Miner #1",
 			"budget": "300,000 BTCZ",
@@ -73,6 +84,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Video Marketing",
 			"name": "Video Marketing #1",
 			"budget": "100,000 BTCZ",
@@ -84,6 +96,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "true",
 			"type": "Exchange Listing",
 			"name": "Paid Exchange Listing #1 (crypto-bridge) ",
 			"budget": "400,000 BTCZ",
@@ -95,6 +108,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Coinomi Wallet",
 			"name": "Coinomi Wallet Listing #1",
 			"budget": "1.25 BTC + 0.25 BTC in BTCZ",
@@ -108,6 +122,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "true",
 			"type": "BitcoinZ Interactive Bots",
 			"name": "BitcoinZ Bot Continued Development #1",
 			"budget": "150,000 BTCZ",
@@ -119,6 +134,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Exchange Listing",
 			"name": "Hash Race Exchange Listing #1",
 			"budget": "5 BTC Fund Raiser",
@@ -131,6 +147,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Ledger Nano S Wallets",
 			"name": "Ledger Nano S Integration #1",
 			"budget": "$895 USD",
@@ -142,6 +159,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Logo update",
 			"name": "BitcoinZ Logo Update + Marketing Package #1",
 			"budget": "TBD",
@@ -153,6 +171,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Governance & Procedure",
 			"name": "Framework & Method Proposal #1",
 			"budget": "None Requested",
@@ -163,6 +182,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Sponsorship",
 			"name": "Hearthstone - Streamer #1",
 			"budget": "$500 - $750 in BTCZ 3months",
@@ -173,6 +193,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Bounty",
 			"name": "Shopify plugin",
 			"budget": "76,000 BTCZ",
@@ -183,6 +204,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Exchange listing",
 			"name": "Binance",
 			"budget": "10-25 BTC for BNB",
@@ -194,6 +216,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Exchange listing",
 			"name": "Cryptopia",
 			"budget": "5 BTC for DOT",
@@ -205,6 +228,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Decimal Places",
 			"name": "Satoshi Places",
 			"budget": "N/A",
@@ -215,6 +239,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Masternodes",
 			"name": "Side-Chain Masternodes",
 			"budget": "N/A",
@@ -225,9 +250,10 @@ settings.panels = {
 			},
                         {
 			"numb": "",
+                        "isnew": "false",
 			"type": "Social Media",
 			"name": "Paid Social Media Activity",
-			"budget": "$600 / 1000/ 3000",
+			"budget": "$600 / 1000 / 3000",
 			"status": "Vote ended",
 			"links": {
 				"link1": ["Vote Not Passed / Read Details", "https://forum.btcz.rocks/t/proposal-for-members-recruitment/201"]
@@ -244,9 +270,16 @@ settings.panels = {
 			"web_link": "Web Link",
 			"repository": "Repository"
 		},
+                "footer_buttons": {
+			"active": "false",
+			"buttons": {
+				"button1": ["Submit New Proposal", "https://forum.btcz.rocks/t/read-first-proposal-submission-template/54"]
+                               }
+                 },
 		"info": [
 			{
 			"numb": "",
+                        "isnew": "false",
 			"type": "Website",
 			"description": "Primary Website",
 			"web_link": "https://btcz.rocks",
@@ -256,6 +289,7 @@ settings.panels = {
 			},
 			{ 
 			"numb": "",
+                        "isnew": "false",
 			"type": "Website",
 			"description": "Progress / Info Bulletin",
 			"web_link": "https://info.btcz.rocks/",

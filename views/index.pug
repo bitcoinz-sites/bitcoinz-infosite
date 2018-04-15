@@ -7,9 +7,7 @@ head
   script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
   script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
 
-each panel in settings.panels
- li
-  span #{panel.title}
+
 nav.navbar.navbar-default
   .container-fluid
     .navbar-header
@@ -18,7 +16,7 @@ nav.navbar.navbar-default
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      a.navbar-brand(href='/') BitcoinZ Info Bulletin
+      a.navbar-brand(href='/') #{settings.title}
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       ul.nav.navbar-nav.navbar-right
         li
@@ -63,9 +61,17 @@ nav.navbar.navbar-default
            each datarow, dataindex in settings.panels[index].info
             tr
              each row, rowindex in datarow
+               
                if rowindex == "numb"
-                td= n
-                - n++;
+                - console.log(datarow.isnew);
+                 if datarow.isnew == "true"
+                  td(id="labeltag")= n 
+                   span(id="labeltag" class="label label-danger") New 
+                    - n++;
+                 else
+                  td= n
+                  - n++;
+
                else if rowindex == "links"
                 td
                  - var i = 1;
@@ -82,15 +88,20 @@ nav.navbar.navbar-default
                  each link, linkindex in row
                    a(href=link[1] target="_blank") #{link[0]}
                     if (i < numlinks)
-                     - console.log(numlinks);
                       |  </a>/ 
                       - i++;
                else if rowindex == "web_link"
                 td
-                  a(href=row target="_blank") Link 
-               else
-                td= row
+                  a(href=row target="_blank") Link
  
+               else if rowindex !== "isnew"
+                td= row
+
+       if settings.panels[index].footer_buttons.active === "true"
+        .col-md-12.text-center
+          each button in settings.panels[index].footer_buttons.buttons
+           a.btn.btn-success(href=button[1], target='_blank') #{button[0]}
+
     #proposals.panel.panel-primary
       .panel-heading
         h3.panel-title Proposals
