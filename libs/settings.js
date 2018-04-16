@@ -22,7 +22,7 @@ settings.panels = {
 		"info": [ 
 		        {
     		        "numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
 			"type": "Community Campaign",
 			"name": "Community YouTube / Twitter Campaign #1",
 			"budget": "100,000 BTCZ per week / one week duration",
@@ -96,7 +96,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
 			"type": "Exchange Listing",
 			"name": "Paid Exchange Listing #1 (crypto-bridge) ",
 			"budget": "400,000 BTCZ",
@@ -122,7 +122,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
 			"type": "BitcoinZ Interactive Bots",
 			"name": "BitcoinZ Bot Continued Development #1",
 			"budget": "150,000 BTCZ",
@@ -261,6 +261,114 @@ settings.panels = {
 			}
 		      ]
 		   },
+	"promotional_videos": {
+		"title": "Promotional Videos",
+		"headings": {
+			"numb": "#",
+			"description": "Description",
+			"language": "Language",
+			"link": "Link"
+		},
+                "footer_buttons": {
+			"active": "false",
+			"buttons": {
+				"button1": ["Submit New Proposal", "https://forum.btcz.rocks/t/read-first-proposal-submission-template/54"]
+                               }
+                 },
+		"info": [
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "What is BitcoinZ? - VoskCoin",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://www.youtube.com/watch?v=uXikYzel8hc"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "What is BitcoinZ (BTCZ)? How does Bitcoin 2.0 work?",
+                        "language": "Russian",
+			"links": {
+               	            "link1": ["Watch Now", "https://youtu.be/Vd5hcUH-fsg"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Como Minerar a criptomoeda BitcoinZ",
+                        "language": "Portugues",
+			"links": {
+               	            "link1": ["Watch Now", "https://youtu.be/AlOHK44qmVo"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Fastest Transfer? BitcoinZ ($BTCZ) Crowdfunded Crypto",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://youtu.be/xLteQIYr7vU"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "How-To - BitcoinZ GUI Miner",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://www.youtube.com/watch?v=7FjW2kV3VzQ"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "How-To - Hash4 Lottery GUI Miner",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://youtu.be/_dEegf-tHRE"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "How-To - BTCZ.ME Shareable Link System",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://youtu.be/Af8seJbpOWE"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "How-To - Generate Paper Wallet",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://youtu.be/ArQETyRtm_I"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "How-To - Fold Your Paper Wallet",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://youtu.be/wgUOz3U3vgQ"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "What is BitcoinZ? How Does Bitcoin 2.0 Work? ",
+                        "language": "English",
+			"links": {
+               	            "link1": ["Watch Now", "https://www.youtube.com/watch?v=ILOzg-9X7Jc"]
+                           }
+			}
+
+	              ]
+                   },
 	"help_wanted": {
 		"title": "Help Wanted",
 		"headings": {
@@ -271,9 +379,9 @@ settings.panels = {
 			"repository": "Repository"
 		},
                 "footer_buttons": {
-			"active": "false",
+			"active": "true",
 			"buttons": {
-				"button1": ["Submit New Proposal", "https://forum.btcz.rocks/t/read-first-proposal-submission-template/54"]
+				"button1": ["Wanna help? Join Slack", "https://slack.btcz.rocks/"]
                                }
                  },
 		"info": [
@@ -296,8 +404,322 @@ settings.panels = {
 			"links": {
      			    "link1": ["GitHub", "https://github.com/bitcoinz-sites/bitcoinz-infosite"]
                           }
+                        },
+			{ 
+			"numb": "",
+                        "isnew": "false",
+			"type": "Website",
+			"description": "Donation Funds Tracker",
+			"web_link": "https://btcz.fund/",
+			"links": {
+     			    "link1": ["GitHub", "https://github.com/bitcoinz-sites/bitcoinz-donation-page"]
+                          }
+                        },
+			{ 
+			"numb": "",
+                        "isnew": "false",
+			"type": "Website",
+			"description": "Guides Site",
+			"web_link": "http://bitcoinzguiding.ovh/",
+			"links": {
+     			    "link1": ["GitHub", "https://github.com/bitcoinz-sites/bitcoinz-guides"]
+                          }
+                        },
+			{ 
+			"numb": "",
+                        "isnew": "false",
+			"type": "Wallet",
+			"description": "Copay Wallet",
+			"web_link": "N/A",
+			"links": {
+     			    "link1": ["GitHub", "https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet"]
+                          }
+                        },
+			{ 
+			"numb": "",
+                        "isnew": "false",
+			"type": "Moderation / Posting",
+			"description": "Reddit",
+			"web_link": "https://www.reddit.com/r/BTCZCommunity/",
+			"links": {
+     			    "link1": ["N/A", ""]
+                          }
+                        },
+			{ 
+			"numb": "",
+                        "isnew": "false",
+			"type": "Moderation / Posting",
+			"description": "Facebook Group",
+			"web_link": "https://www.facebook.com/groups/bitcoinz.community/",
+			"links": {
+     			    "link1": ["N/A", ""]
+                          }
+                        },
+			{ 
+			"numb": "",
+                        "isnew": "false",
+			"type": "Moderation / Posting",
+			"description": "Twitter",
+			"web_link": "https://twitter.com/BitcoinZTeam",
+			"links": {
+     			    "link1": ["N/A", ""]
+                          }
                         }
-	    ]}
+	              ]
+                   },
+	"campaigns": {
+		"title": "Campaigns",
+		"headings": {
+			"numb": "#",
+			"description": "Description",
+			"status": "Status",
+			"datelaunched": "Date Launched",
+                        "details": "Links",
+			"budget": "Budget"
+		},
+                "footer_buttons": {
+			"active": "false",
+			"buttons": {
+				"button1": ["Wanna help? Join Slack", "https://slack.btcz.rocks/"]
+                               }
+                 },
+		"info": [
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "YouTube Campaign #1",
+			"status": "Expired",
+			"datelaunched": "11 / 24 / 2017",
+			"links": {
+               	            "link1": ["Full Details", "https://docs.google.com/document/d/1rnIyfPtBxYEX21e-P22oAx357g-c5dhzG1m2GAv2mtM/edit?usp=sharing"]
+                           },
+                        "budget": "50,000 BTCZ"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Twitter Campaign #1",
+			"status": "Expired",
+			"datelaunched": "11 / 24 / 2017",
+			"links": {
+               	            "link1": ["Full Details", "https://docs.google.com/document/d/1VRZQIaosJ0Ue1q0Levc7zfAx0ku7i2VLNKuLHri8mc4/edit?usp=sharing"]
+                           },
+                        "budget": "50,000 BTCZ"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Twitter Campaign #2",
+			"status": "Expired",
+			"datelaunched": "11 / 29 / 2017",
+			"links": {
+               	            "link1": ["Full Details", "https://docs.google.com/document/d/1GVxC6mBKIg-Jtmw6eDdvDnvpw6FopKEeA8Re9vD_lP8/edit?usp=sharing"]
+                           },
+                        "budget": "100,000 BTCZ"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Donations For Hash Power Round #2",
+			"status": "Expired",
+			"datelaunched": "12 / 01 / 2017",
+			"links": {
+               	            "link1": ["Details", "https://docs.google.com/document/d/1b0pgXYDO6FgjkKXs8UxcWEqqK6teSNBPO9FenXjSagk"],
+                            "link2": ["Campaign Completed", "https://equipool.1ds.us/workers/t1h4H4Cp3Ffwj92dzTPrEEEjQsqW24ubapP"]
+                           },
+                        "budget": "50KSol/s Volunteers"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Community YouTube / Twitter Campaign #1",
+			"status": "Expired",
+			"datelaunched": "12 / 08 / 2017",
+			"links": {
+               	            "link1": ["Payment Details", "https://docs.google.com/document/d/1fnsY7khYimf9wOXcj6-hO0tDHVXYeFVbcql_lP3ofK4/edit?usp=sharing"],
+                           },
+                        "budget": "100,000 BTCZ"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Community Competition Campaign #1",
+			"status": "Expired",
+			"datelaunched": "12 / 08 / 2017",
+			"links": {
+               	            "link1": ["Full Details", "https://docs.google.com/document/d/14mPlKiQyef8rmTqZnY0hdKBHANtTEEbWXAgZY50ORKQ/edit?usp=sharing"],
+                           },
+                        "budget": "45,000 - 75,000 BTCZ"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Inaugural Lottery #1 ",
+			"status": "Completed",
+			"datelaunched": "01 / 18 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #2",
+			"status": "Completed",
+			"datelaunched": "01 / 29 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #3",
+			"status": "Completed",
+			"datelaunched": "02 / 05 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #4",
+			"status": "Completed",
+			"datelaunched": "02 / 12 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://docs.google.com/document/d/1dFM3yNtowNY9RP8WHGEcRK7jQiihRSDi4lrLLZxvoKA/edit?usp=sharing"],
+                           },
+                        "budget": "10,000 BTCZ"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Mission Statement Competition #1",
+			"status": "Active (Phase 1: collection)",
+			"datelaunched": "02 / 19 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #5",
+			"status": "Completed",
+			"datelaunched": "02 / 19 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #6",
+			"status": "Completed",
+			"datelaunched": "02 / 25 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #7",
+			"status": "Completed",
+			"datelaunched": "03 / 04 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Pending",
+			"status": "Pending",
+			"datelaunched": "Pending",
+			"links": {
+               	            "link1": ["Pending", ""],
+                           },
+                        "budget": "TBD - Investor sponsored"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #8",
+			"status": "Completed",
+			"datelaunched": "03 / 11 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #9",
+			"status": "Completed",
+			"datelaunched": "03 / 18 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Chancefx + BitcoinZ Twitter Campaign",
+			"status": "Expired",
+			"datelaunched": "03 / 18 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://docs.google.com/document/d/1Ssgib-_WlU59QsMDSmQAuNBqr6RiB0lBDPmNbYxZwhg/edit"],
+                           },
+                        "budget": "1,000 BTCZ per tweet"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #10 ",
+			"status": "Completed",
+			"datelaunched": "03 / 25 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Hash4 Lottery #11 ",
+			"status": "Completed",
+			"datelaunched": "04 / 01 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                            "link2": ["Hash Lottery GUI Miner", "https://github.com/bitcoinz-support/hash4btcz-miner/releases"]
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+			"description": "Jalapen.io - game monetization platform",
+			"status": "Vote won!",
+			"datelaunched": "03 / 14 / 2018",
+			"links": {
+               	            "link1": ["Full Details", "http://jalapen.io/"]
+                           },
+                        "budget": "N/A - Win vote"
+			},
+	              ]
+                   },
+
     };
 
 module.exports = settings;
