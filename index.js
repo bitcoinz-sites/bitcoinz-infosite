@@ -36,6 +36,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Locals
 app.set('panels', settings.panels);
 app.set('title', settings.title);
+app.set('theme', settings.theme);
+app.set('navright', settings.navright);
 
 
 
