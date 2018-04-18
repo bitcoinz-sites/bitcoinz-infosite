@@ -36,9 +36,9 @@ ServerName info.btcz.rocks
 </VirtualHost>
 ```
 
-#MIT License
+# MIT License
 
-#Copyright (c) 2018 BitcoinZ Community
+# Copyright (c) 2018 BitcoinZ Community
 
 ```Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
