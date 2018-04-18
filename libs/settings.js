@@ -1200,6 +1200,18 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
+			"name": "exvo",
+			"cost": "0,25 BTC ",
+			"status": "Need funds",
+			"links": {
+               	            "link1": ["Submit", "https://exvo.io/documents/addcoin"],
+                            "link2": ["Site Page", "https://www.exvo.io/"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
 			"name": "Bittrex",
 			"cost": "Free",
 			"status": "Stop submitting requests",
