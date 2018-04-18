@@ -62,3 +62,5 @@ typings/
 # back-up files
 public/index.bak.html
 index.js.bak
+views/index.bak.pug
+libs/settings.bak.js
