@@ -1154,6 +1154,17 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "danger", // danger = red; success = green;
+			"name": "CryptalDash",
+			"cost": "TBD",
+			"status": "Voting now",
+			"links": {
+               	            "link1": ["Voting Page", "https://www.cryptaldash.com/new-coin-listing?search=Btcz"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "danger", // danger = red; success = green;
 			"name": "Cex.io",
 			"cost": "TBD",
 			"status": "Voting now",
