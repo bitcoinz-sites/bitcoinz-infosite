@@ -61,6 +61,9 @@ typings/
 
 # back-up files
 public/index.bak.html
+<<<<<<< HEAD
 index.js.bak
+=======
+>>>>>>> upgrade-to-settings-files
 views/index.bak.pug
 libs/settings.bak.js
