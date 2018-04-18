@@ -45,7 +45,6 @@ nav.navbar.navbar-default
          tbody
           - var n = 1;
            each datarow, dataindex in settings.panels[index].info
-            - console.log(datarow);
             tr(class=datarow.highlight)
 
               each row, rowindex in datarow
