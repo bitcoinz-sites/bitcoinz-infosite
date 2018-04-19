@@ -1164,6 +1164,17 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "danger", // danger = red; success = green;
+			"name": "CryptalDash",
+			"cost": "TBD",
+			"status": "Voting now",
+			"links": {
+               	            "link1": ["Voting Page", "https://www.cryptaldash.com/new-coin-listing?search=Btcz"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "danger", // danger = red; success = green;
 			"name": "Cex.io",
 			"cost": "TBD",
 			"status": "Voting now",
@@ -1193,6 +1204,18 @@ settings.panels = {
 			"links": {
                	            "link1": ["Submit", "https://drive.google.com/open?id=1EHpvQRWh_MKiYFw0PPQPAIMVDCGUgpPy4pk6EHBJljQ"],
                             "link2": ["Site Page", "https://www.binance.com/"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"name": "exvo",
+			"cost": "0,25 BTC ",
+			"status": "Need funds",
+			"links": {
+               	            "link1": ["Submit", "https://exvo.io/documents/addcoin"],
+                            "link2": ["Site Page", "https://www.exvo.io/"]
                            }
 			},
 			{
