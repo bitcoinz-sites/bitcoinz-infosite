@@ -420,7 +420,17 @@ settings.panels = {
 			"links": {
                	            "link1": ["Watch Now", "https://www.youtube.com/watch?v=ILOzg-9X7Jc"]
                            }
-			}
+			},
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "", // danger = red; success = green;
+                        "description": "==BitcoinZ== Awesome MINING coin and Review - CryptoJitsu",
+                        "language": "English",
+                        "links": {
+                            "link1": ["Watch Now", "https://www.youtube.com/watch?v=UYiT0Mxtz9I"]
+                           }
+                        }
 
 	              ]
                    },
@@ -1051,6 +1061,17 @@ settings.panels = {
                	            "link1": ["Voting Page", "https://dontoshi.featureupvote.com/suggestions/7500/bitcoinz-btcz"]
                            }
 			},
+                        {
+                        "numb": "",
+                        "isnew": "false",
+                        "highlight": "danger", // danger = red; success = green;
+                        "name": "LESCOVEX",
+                        "cost": "TBD",
+                        "status": "Voting now",
+                        "links": {
+                            "link1": ["Voting Page", "https://lescovex.featureupvote.com/suggestions/6864/bitcoinz-btcz"]
+                           }
+                        },
 			{
 			"numb": "",
                         "isnew": "false",
