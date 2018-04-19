@@ -1143,17 +1143,6 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "danger", // danger = red; success = green;
-			"name": "LESCOVEX",
-			"cost": "TBD",
-			"status": "Voting now",
-			"links": {
-               	            "link1": ["Voting Page", "https://lescovex.featureupvote.com/suggestions/6864/bitcoinz-btcz"]
-                           }
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
 			"name": "CryptalDash",
 			"cost": "TBD",
 			"status": "Voting now",
