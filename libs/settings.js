@@ -815,18 +815,6 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
-			"description": "Pending",
-			"status": "Pending",
-			"datelaunched": "Pending",
-			"links": {
-               	            "link1": ["Pending", ""],
-                           },
-                        "budget": "TBD - Investor sponsored"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
 			"description": "Hash4 Lottery #8",
 			"status": "Completed",
 			"datelaunched": "03 / 11 / 2018",
@@ -879,8 +867,7 @@ settings.panels = {
 			"status": "Completed",
 			"datelaunched": "04 / 01 / 2018",
 			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                            "link2": ["Hash Lottery GUI Miner", "https://github.com/bitcoinz-support/hash4btcz-miner/releases"]
+               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"]
                            },
                         "budget": "10% of Total BTCZ Mined"
 			},
@@ -895,7 +882,32 @@ settings.panels = {
                	            "link1": ["Full Details", "http://jalapen.io/"]
                            },
                         "budget": "N/A - Win vote"
-			}
+			},
+                        {
+                        "numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+                        "description": "Hash4 Lottery #12",
+                        "status": "Vote won!",
+                        "datelaunched": "04 / 09 / 2018",
+                        "links": {
+                            "link1": ["Full Details", "https://hash4.btcz.rocks/"]
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+                        "description": "Hash4 Lottery #13",
+                        "status": "In progress",
+                        "datelaunched": "04 / 16 / 2018",
+                        "links": {
+                            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                            "link2": ["Hash Lottery GUI Miner", "https://github.com/bitcoinz-support/hash4btcz-miner/releases"]
+                           },
+                        "budget": "10% of Total BTCZ Mined"
+                        },
 	             ]
                   },
 	"exchanges": {
