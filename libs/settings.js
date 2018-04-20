@@ -1227,7 +1227,7 @@ settings.panels = {
 			"status": "Funding",
 			"links": {
                	            "link1": ["Proposal", "https://forum.btcz.rocks/t/proposal-to-list-btcz-on-exvo-io-exchange/345"],
-			    "link2": `["Donate", "https://btcz.me/exvo"], 
+			    "link2": ["Donate", "https://btcz.me/exvo"], 
                             "link3": ["Site Page", "https://www.exvo.io/"]
                            }
 			},
