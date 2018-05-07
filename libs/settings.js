@@ -932,9 +932,9 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Coinbene",
 			"cost": "10 BTC",
-			"status": "BTCZ/USDT Delayed May 2018",
+			"status": "Payment Refunded",
 			"links": {
-               	            "link1": ["Full Details", "https://www.coinbene.com/"]
+               	            "link1": ["N/A", ""]
                            }
 			},
 			{
