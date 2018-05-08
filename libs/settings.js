@@ -1221,13 +1221,14 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"name": "exvo",
-			"cost": "0,25 BTC ",
-			"status": "Need funds",
+                        "highlight": "danger", // danger = red; success = green;
+			"name": "Exvo",
+			"cost": "1000 EXVO Approximately 110.000 BTCZ ",
+			"status": "Funding",
 			"links": {
-               	            "link1": ["Submit", "https://exvo.io/documents/addcoin"],
-                            "link2": ["Site Page", "https://www.exvo.io/"]
+               	            "link1": ["Proposal", "https://forum.btcz.rocks/t/proposal-to-list-btcz-on-exvo-io-exchange/345"],
+			    "link2": ["Donate", "https://btcz.me/exvo"], 
+                            "link3": ["Site Page", "https://www.exvo.io/"]
                            }
 			},
 			{
