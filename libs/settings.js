@@ -423,12 +423,22 @@ settings.panels = {
 			},
                         {
                         "numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
                         "highlight": "", // danger = red; success = green;
                         "description": "==BitcoinZ== Awesome MINING coin and Review - CryptoJitsu",
                         "language": "English",
                         "links": {
                             "link1": ["Watch Now", "https://www.youtube.com/watch?v=UYiT0Mxtz9I"]
+                           }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "description": "BitcoinZ Bounty Announcement @TheCoinKings",
+                        "language": "English",
+                        "links": {
+                            "link1": ["Watch Now", "https://youtu.be/0dOBuHVwJ5s"]
                            }
                         }
 
@@ -731,109 +741,13 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #2",
-			"status": "Completed",
-			"datelaunched": "01 / 29 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #3",
-			"status": "Completed",
-			"datelaunched": "02 / 05 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #4",
-			"status": "Completed",
-			"datelaunched": "02 / 12 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://docs.google.com/document/d/1dFM3yNtowNY9RP8WHGEcRK7jQiihRSDi4lrLLZxvoKA/edit?usp=sharing"],
-                           },
-                        "budget": "10,000 BTCZ"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
 			"description": "Mission Statement Competition #1",
 			"status": "Active (Phase 1: collection)",
 			"datelaunched": "02 / 19 / 2018",
 			"links": {
                	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
                            },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #5",
-			"status": "Completed",
-			"datelaunched": "02 / 19 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #6",
-			"status": "Completed",
-			"datelaunched": "02 / 25 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #7",
-			"status": "Completed",
-			"datelaunched": "03 / 04 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #8",
-			"status": "Completed",
-			"datelaunched": "03 / 11 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #9",
-			"status": "Completed",
-			"datelaunched": "03 / 18 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
+                        "budget": "N/A"
 			},
 			{
 			"numb": "",
@@ -851,30 +765,6 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #10 ",
-			"status": "Completed",
-			"datelaunched": "03 / 25 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"description": "Hash4 Lottery #11 ",
-			"status": "Completed",
-			"datelaunched": "04 / 01 / 2018",
-			"links": {
-               	            "link1": ["Full Details", "https://hash4.btcz.rocks/"]
-                           },
-                        "budget": "10% of Total BTCZ Mined"
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
 			"description": "Jalapen.io - game monetization platform",
 			"status": "Vote won!",
 			"datelaunched": "03 / 14 / 2018",
@@ -887,27 +777,40 @@ settings.panels = {
                         "numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
-                        "description": "Hash4 Lottery #12",
-                        "status": "Vote won!",
-                        "datelaunched": "04 / 09 / 2018",
+                        "description": "Hash Lottery",
+                        "status": "On-going / reset every Sunday",
+                        "datelaunched": "01 / 18 / 2018",
                         "links": {
-                            "link1": ["Full Details", "https://hash4.btcz.rocks/"]
+                            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
+                            "link2": ["Lottery GUI Miner", "https://github.com/bitcoinz-support/hash4btcz-miner/releases"]
                            },
                         "budget": "10% of Total BTCZ Mined"
                         },
                         {
                         "numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-                        "description": "Hash4 Lottery #13",
-                        "status": "In progress",
-                        "datelaunched": "04 / 16 / 2018",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "description": "Bounty - Start Accepting BitcoinZ As Payment",
+                        "status": "In Progress",
+                        "datelaunched": "05 / 10 / 2018",
                         "links": {
-                            "link1": ["Full Details", "https://hash4.btcz.rocks/"],
-                            "link2": ["Hash Lottery GUI Miner", "https://github.com/bitcoinz-support/hash4btcz-miner/releases"]
+                            "link1": ["How-To", "https://steemit.com/bitcoinz/@thecoinkings/how-to-accept-bitcoinz-as-a-payment-method-for-a-business"],
+                            "link2": ["Bounty Announcement", "https://youtu.be/0dOBuHVwJ5s"]
                            },
-                        "budget": "10% of Total BTCZ Mined"
+                        "budget": "6,000 BTCZ"
                         },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "description": "Jalapeno.io Seed Wallet for Gaming Launch",
+                        "status": "In Progress",
+                        "datelaunched": "05 / 10 / 2018",
+                        "links": {
+                            "link1": ["Details / Seed Wallet", "https://seed.jalapen.io/"],
+                           },
+                        "budget": "1,388,889 BTCZ"
+                        }
 	             ]
                   },
 	"exchanges": {
@@ -1598,7 +1501,7 @@ settings.panels = {
 			},
 			{
 			"numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
                         "highlight": "", // danger = red; success = green;
 			"category": "Magento Payment Module",
 			"status": "Now live!",
@@ -1609,7 +1512,7 @@ settings.panels = {
 			},
 			{
 			"numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
                         "highlight": "", // danger = red; success = green;
 			"category": "TxtZ - SMS Send/Receive BitcoinZ ",
 			"status": "Demo Completed / Release pending",
@@ -1619,7 +1522,18 @@ settings.panels = {
                	            "link2": ["GitHub", "https://github.com/bitcoinz-wallets/TxtZ"]
                            }
 			},
-
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "category": "Blockchain",
+                        "status": "Dev in progress / testing soon",
+                        "description": "Zhash ASIC resistent algo",
+                        "links": {
+                            "link1": ["Announcement", "https://twitter.com/BitcoinZTeam/status/993541508035989504"],
+                            "link2": ["Github", "https://github.com/btcz/bitcoinz/issues/38"]
+                           }
+                        }
                    ]
               },
 	"Wallets": {
