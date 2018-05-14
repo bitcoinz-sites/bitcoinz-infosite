@@ -294,7 +294,7 @@ settings.panels = {
 			},
                         {
 			"numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
                         "highlight": "", // danger = red; success = green;
 			"type": "Bounty",
 			"name": "Logo For Btcz.news",
@@ -303,7 +303,20 @@ settings.panels = {
 			"links": {
 				"link1": ["Bounty Details", "https://forum.btcz.rocks/t/btcz-news-logo-bounty/335"]
 			        }				
-			}
+			},
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Marketing",
+                        "name": "Promotion on Cryptosocial.world",
+                        "budget": "$400 USD in BTCZ",
+                        "status": "In Voting",
+                        "links": {
+                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/cryptosocial-world/500"]
+                                }
+                        }
+
 		      ]
 		   },
 	"promotional_videos": {
@@ -624,7 +637,7 @@ settings.panels = {
 			 },
 			{
 			"numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
                         "highlight": "", // danger = red; success = green;
 			"description": "TxtZ - SMS/Text BitcoinZ Announcement #1",
 			"status": "Completed",
@@ -1533,7 +1546,19 @@ settings.panels = {
                             "link1": ["Announcement", "https://twitter.com/BitcoinZTeam/status/993541508035989504"],
                             "link2": ["Github", "https://github.com/btcz/bitcoinz/issues/38"]
                            }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "category": "Accepting BitcoinZ",
+                        "status": "In progress",
+                        "description": "Business Currently Accepting BitcoinZ as Payment",
+                        "links": {
+                            "link1": ["BTCZ Directory", "https://btczdirectory.com/"]
+                           }
                         }
+
                    ]
               },
 	"Wallets": {
