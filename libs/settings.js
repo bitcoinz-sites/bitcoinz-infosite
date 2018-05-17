@@ -315,6 +315,18 @@ settings.panels = {
                         "links": {
                                 "link1": ["Details & Voting", "https://forum.btcz.rocks/t/cryptosocial-world/500"]
                                 }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Marketing",
+                        "name": "Marketing, rebranding, redesign",
+                        "budget": "N/A",
+                        "status": "In Voting",
+                        "links": {
+                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/marketing-guidelines-rebranding-and-redesign-proposal/512"]
+                                }
                         }
 
 		      ]
