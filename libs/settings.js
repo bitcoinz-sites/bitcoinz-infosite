@@ -658,6 +658,18 @@ settings.panels = {
                	            "link1": ["View Now", "https://www.youtube.com/watch?v=aeGX36c24i0"]
                            }
 			 },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "description": "Live Recap / Voice chat session",
+                        "status": "Completed",
+                        "date": "05 / 16 / 2018 @ 6pm UTC / 1pm CST",
+                        "links": {
+                            "link1": ["View Now", "https://www.youtube.com/watch?v=8VuC1w89cMQ"]
+                           }
+                         }
+
 	              ]
                    },
 	"campaigns": {
