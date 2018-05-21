@@ -327,7 +327,20 @@ settings.panels = {
                         "links": {
                                 "link1": ["Details & Voting", "https://forum.btcz.rocks/t/marketing-guidelines-rebranding-and-redesign-proposal/512"]
                                 }
-                        }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Micro Loans - Social Responsibility",
+                        "name": "Charity through Kiva lending platform",
+                        "budget": "$50 - $100 USD in BTCZ",
+                        "status": "In Voting",
+                        "links": {
+                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/micro-loans-a-different-kind-of-proposal/533/5"]
+                                }
+                        },
+
 
 		      ]
 		   },
@@ -572,7 +585,41 @@ settings.panels = {
 			"links": {
      			    "link1": ["N/A", ""]
                           }
-                        }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Run testnet node / Zhash BitcoinZ",
+                        "description": "Blockchain",
+                        "web_link": "",
+                        "links": {
+                            "link1": ["GitHub", "https://github.com/NickRHill/bitcoinz"]
+                          }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Run test z-nomp",
+                        "description": "Mining Zhash",
+                        "web_link": "",
+                        "links": {
+                            "link1": ["GitHub", "https://github.com/NickRHill/z-nomp"]
+                          }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "danger", // danger = red; success = green;
+                        "type": "Miner",
+                        "description": "Implement fork of solvers for AMD + Nvidia using 144, 5 eq parameters",
+                        "web_link": "",
+                        "links": {
+                            "link1": ["N/A", ""]
+                          }
+                        },
+
 	              ]
                    },
 
