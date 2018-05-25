@@ -594,7 +594,7 @@ settings.panels = {
                         "description": "Blockchain",
                         "web_link": "",
                         "links": {
-                            "link1": ["GitHub", "https://github.com/NickRHill/bitcoinz"]
+                            "link1": ["GitHub", "https://github.com/NickRHill/bitcoinz/tree/eh144-5"]
                           }
                         },
                         {
