@@ -337,10 +337,21 @@ settings.panels = {
                         "budget": "$50 - $100 USD in BTCZ",
                         "status": "In Voting",
                         "links": {
-                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/micro-loans-a-different-kind-of-proposal/533/5"]
+                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/bitcoinz-products-page-adoption-initiative/563"]
                                 }
                         },
-
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Bounty",
+                        "name": "BitcoinZ Products Page - Adoption Initiative - Site Design & Integration",
+                        "budget": "200,000 BTCZ",
+                        "status": "In Voting",
+                        "links": {
+                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/micro-loans-a-different-kind-of-proposal/533/5"]
+                                }
+                        }
 
 		      ]
 		   },
