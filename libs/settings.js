@@ -732,10 +732,10 @@ settings.panels = {
                         "isnew": "true",
                         "highlight": "success", // danger = red; success = green;
                         "description": "Live Stream 6/03/2018 - The Zhash Forking",
-                        "status": "Scheduled",
+                        "status": "Completed",
                         "date": "06 / 03 / 2018 @ 4pm UTC / 11am CST",
                         "links": {
-                            "link1": ["Set Reminder", "https://www.youtube.com/watch?v=1Zet6Qh7RYE"]
+                            "link1": ["View Now", "https://www.youtube.com/watch?v=1Zet6Qh7RYE"]
                            }
                          }
 
