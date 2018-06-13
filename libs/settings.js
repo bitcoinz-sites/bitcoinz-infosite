@@ -306,50 +306,50 @@ settings.panels = {
 			},
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Marketing",
                         "name": "Promotion on Cryptosocial.world",
                         "budget": "$400 USD in BTCZ",
-                        "status": "In Voting",
+                        "status": "Vote Passed / Need Execution",
                         "links": {
-                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/cryptosocial-world/500"]
+                                "link1": ["Details & Results", "https://forum.btcz.rocks/t/cryptosocial-world/500"]
                                 }
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Marketing",
                         "name": "Marketing, rebranding, redesign",
                         "budget": "N/A",
-                        "status": "In Voting",
+                        "status": "Vote Not Passed",
                         "links": {
-                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/marketing-guidelines-rebranding-and-redesign-proposal/512"]
+                                "link1": ["Details & Results", "https://forum.btcz.rocks/t/marketing-guidelines-rebranding-and-redesign-proposal/512"]
                                 }
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Micro Loans - Social Responsibility",
                         "name": "Charity through Kiva lending platform",
                         "budget": "$50 - $100 USD in BTCZ",
-                        "status": "In Voting",
+                        "status": "Vote Passed / Need Execution",
                         "links": {
-                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/bitcoinz-products-page-adoption-initiative/563"]
+                               "link1": ["Details & Results", "https://forum.btcz.rocks/t/micro-loans-a-different-kind-of-proposal/533/5 https://forum.btcz.rocks/t/bitcoinz-products-page-adoption-initiative/563"]
                                 }
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Bounty",
                         "name": "BitcoinZ Products Page - Adoption Initiative - Site Design & Integration",
                         "budget": "200,000 BTCZ",
-                        "status": "In Voting",
+                        "status": "Vote Passed / Need Execution",
                         "links": {
-                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/micro-loans-a-different-kind-of-proposal/533/5"]
+                                "link1": ["Details & Results", "https://forum.btcz.rocks/t/bitcoinz-products-page-adoption-initiative/563"]
                                 }
                         }
 
@@ -601,19 +601,19 @@ settings.panels = {
                         "numb": "",
                         "isnew": "true",
                         "highlight": "success", // danger = red; success = green;
-                        "type": "Run testnet node / Zhash BitcoinZ",
-                        "description": "Blockchain",
+                        "type": "Blockchain",
+                        "description": "Run testnet node / Zhash BitcoinZ",
                         "web_link": "",
                         "links": {
-                            "link1": ["GitHub", "https://github.com/NickRHill/bitcoinz/tree/eh144-5"]
+                            "link1": ["GitHub", "https://github.com/btcz/bitcoinz"]
                           }
                         },
                         {
                         "numb": "",
                         "isnew": "true",
                         "highlight": "success", // danger = red; success = green;
-                        "type": "Run test z-nomp",
-                        "description": "Mining Zhash",
+                        "type": "Pool",
+                        "description": "Run testnet z-nomp",
                         "web_link": "",
                         "links": {
                             "link1": ["GitHub", "https://github.com/NickRHill/z-nomp"]
@@ -623,13 +623,35 @@ settings.panels = {
                         "numb": "",
                         "isnew": "true",
                         "highlight": "danger", // danger = red; success = green;
-                        "type": "Miner",
-                        "description": "Implement fork of solvers for AMD + Nvidia using 144, 5 eq parameters",
+                        "type": "Mining",
+                        "description": "Need AMD Miner",
                         "web_link": "",
                         "links": {
                             "link1": ["N/A", ""]
                           }
                         },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Explorer",
+                        "description": "Zhash Testnet Explorer",
+                        "web_link": "http://testnet.explorer.btcz.life:3002",
+                        "links": {
+                            "link1": ["N/A", ""]
+                          }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Mining",
+                        "description": "Test Zhasher Nvidia CUDA",
+                        "web_link": "https://github.com/btcz/zhasher/releases",
+                        "links": {
+                            "link1": ["Github", "https://github.com/btcz/zhasher/releases"]
+                          }
+                        }
 
 	              ]
                    },
