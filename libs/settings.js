@@ -482,8 +482,8 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "description": "BitcoinZ Bounty Announcement @TheCoinKings",
                         "language": "English",
                         "links": {
@@ -599,10 +599,10 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Blockchain",
-                        "description": "Run testnet node / Zhash BitcoinZ",
+                        "description": "Run testnet node / Zhash BitcoinZ (Completed)",
                         "web_link": "",
                         "links": {
                             "link1": ["GitHub", "https://github.com/btcz/bitcoinz"]
@@ -610,10 +610,10 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Pool",
-                        "description": "Run testnet z-nomp",
+                        "description": "Run testnet z-nomp (Completed)",
                         "web_link": "",
                         "links": {
                             "link1": ["GitHub", "https://github.com/NickRHill/z-nomp"]
@@ -621,7 +621,7 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
                         "highlight": "danger", // danger = red; success = green;
                         "type": "Mining",
                         "description": "Need AMD Miner",
@@ -632,10 +632,10 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Explorer",
-                        "description": "Zhash Testnet Explorer",
+                        "description": "Zhash Testnet Explorer (Completed)",
                         "web_link": "http://testnet.explorer.btcz.life:3002",
                         "links": {
                             "link1": ["N/A", ""]
@@ -643,10 +643,10 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Mining",
-                        "description": "Test Zhasher Nvidia CUDA",
+                        "description": "Test Zhasher Nvidia CUDA (Completed)",
                         "web_link": "https://github.com/btcz/zhasher/releases",
                         "links": {
                             "link1": ["Github", "https://github.com/btcz/zhasher/releases"]
@@ -751,8 +751,8 @@ settings.panels = {
                          },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "description": "Live Stream 6/03/2018 - The Zhash Forking",
                         "status": "Completed",
                         "date": "06 / 03 / 2018 @ 4pm UTC / 11am CST",
@@ -1653,10 +1653,10 @@ settings.panels = {
 			},
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "category": "Blockchain",
-                        "status": "Dev in progress / testing soon",
+                        "status": "Fork Completed / Block 160,000",
                         "description": "Zhash ASIC resistent algo",
                         "links": {
                             "link1": ["Announcement", "https://twitter.com/BitcoinZTeam/status/993541508035989504"],
