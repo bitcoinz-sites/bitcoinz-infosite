@@ -351,7 +351,20 @@ settings.panels = {
                         "links": {
                                 "link1": ["Details & Results", "https://forum.btcz.rocks/t/bitcoinz-products-page-adoption-initiative/563"]
                                 }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "danger", // danger = red; success = green;
+                        "type": "Press Releases",
+                        "name": "BitcoinZ - Press Releases To Coin Media Outlets",
+                        "budget": "$750 (currently)",
+                        "status": "In Voting",
+                        "links": {
+                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/bitcoinz-press-releases-to-coin-media-outlets-x7/632"]
+                                }
                         }
+
 
 		      ]
 		   },
