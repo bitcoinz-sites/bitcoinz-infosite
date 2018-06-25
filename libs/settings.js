@@ -1700,13 +1700,24 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "category": "Accepting BitcoinZ",
                         "status": "In progress",
                         "description": "Business Currently Accepting BitcoinZ as Payment",
                         "links": {
                             "link1": ["BTCZ Directory", "https://btczdirectory.com/"]
+                           }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "category": "Mining Operating System",
+                        "status": "Live / Beta",
+                        "description": "ZhashOS: Linux based USB bootable mining operation system - dev: Overdrive5 @ Discord",
+                        "links": {
+                            "link1": ["ZhashOS", "http://zhashos.altcap.biz/"]
                            }
                         }
 
