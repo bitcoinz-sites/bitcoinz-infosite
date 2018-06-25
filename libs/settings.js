@@ -502,6 +502,16 @@ settings.panels = {
                         "links": {
                             "link1": ["Watch Now", "https://youtu.be/0dOBuHVwJ5s"]
                            }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "description": "BitcoinZ (BTCZ) Dev Team UNMASKED - Seth Estrada",
+                        "language": "English",
+                        "links": {
+                            "link1": ["Watch Now", "https://www.youtube.com/watch?v=Dlt98B-4a98"]
+                           }
                         }
 
 	              ]
@@ -982,6 +992,18 @@ settings.panels = {
                	            "link1": ["N/A", ""]
                            }
 			},
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "name": "Exmo",
+                        "cost": "4 BTC + 1 BTC in BTCZ",
+                        "status": "Active",
+                        "links": {
+                            "link1": ["Trade Page", "https://exmo.me/en/trade#?pair=BTCZ_BTC"],
+                            "link2": ["Payment Details", "https://docs.google.com/document/d/1QndLq2kXHIu9BbYd1c_wHOzryAKxCSqzzDodPOqVQnM/edit?usp=sharing"]
+                           }
+                        },
 			{
 			"numb": "",
                         "isnew": "false",
