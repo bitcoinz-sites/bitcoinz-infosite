@@ -674,6 +674,17 @@ settings.panels = {
                         "links": {
                             "link1": ["Github", "https://github.com/btcz/zhasher/releases"]
                           }
+                        },
+			{ 
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"type": "Moderation / Posting",
+			"description": "Instagram Account",
+			"web_link": "https://www.instagram.com/bitcoinzcommunity/",
+			"links": {
+     			    "link1": ["N/A", ""]
+                          }
                         }
 
 	              ]
