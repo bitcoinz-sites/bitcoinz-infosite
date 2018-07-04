@@ -354,14 +354,14 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "danger", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Press Releases",
                         "name": "BitcoinZ - Press Releases To Coin Media Outlets",
                         "budget": "$750 (currently)",
-                        "status": "In Voting",
+                        "status": "Vote passed",
                         "links": {
-                                "link1": ["Details & Voting", "https://forum.btcz.rocks/t/bitcoinz-press-releases-to-coin-media-outlets-x7/632"]
+                                "link1": ["Details & Results", "https://forum.btcz.rocks/t/bitcoinz-press-releases-to-coin-media-outlets-x7/632"]
                                 }
                         }
 
@@ -644,13 +644,13 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
                         "type": "Mining",
-                        "description": "Need AMD Miner",
+                        "description": "AMD Miner",
                         "web_link": "",
                         "links": {
-                            "link1": ["N/A", ""]
+                            "link1": ["BitcoinTalk", "https://bitcointalk.org/index.php?topic=4591317"]
                           }
                         },
                         {
@@ -981,23 +981,12 @@ settings.panels = {
                                }
                  },
 		"info": [
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"name": "Coinbene",
-			"cost": "10 BTC",
-			"status": "Payment Refunded",
-			"links": {
-               	            "link1": ["N/A", ""]
-                           }
-			},
                         {
                         "numb": "",
                         "isnew": "true",
                         "highlight": "success", // danger = red; success = green;
                         "name": "Exmo",
-                        "cost": "4 BTC + 1 BTC in BTCZ",
+                        "cost": "4 BTC + 1 BTC in BTCZ + 5 BTC after listing",
                         "status": "Active",
                         "links": {
                             "link1": ["Trade Page", "https://exmo.me/en/trade#?pair=BTCZ_BTC"],
@@ -1065,17 +1054,6 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
-			"name": "Crypto-Bridge",
-			"cost": "400,000 BTCZ",
-			"status": "Payment Refunded",
-			"links": {
-               	            "link1": ["Site Page", "https://crypto-bridge.org/"]
-                           }
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
 			"name": "BarterDEX",
 			"cost": "100,000 BTCZ",
 			"status": "Active (Electrum mode enabled)",
@@ -1118,6 +1096,28 @@ settings.panels = {
                	            "link1": ["Trade Page", "https://octaex.com/trade/index/market/btcz_btc"]
                            }
 			},
+                        {
+                        "numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+                        "name": "Coinbene",
+                        "cost": "10 BTC",
+                        "status": "Payment Refunded",
+                        "links": {
+                            "link1": ["N/A", ""]
+                           }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+                        "name": "Crypto-Bridge",
+                        "cost": "400,000 BTCZ",
+                        "status": "Payment Refunded",
+                        "links": {
+                            "link1": ["Site Page", "https://crypto-bridge.org/"]
+                           }
+                        },
 			{
 			"numb": "",
                         "isnew": "false",
