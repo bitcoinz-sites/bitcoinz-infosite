@@ -1029,12 +1029,12 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
+                        "highlight": "danger", // danger = red; success = green;
 			"name": "C-Cex",
 			"cost": "4 BTC",
-			"status": "Active",
+			"status": "Inactive",
 			"links": {
-               	            "link1": ["Trade Page", "https://www.coinbene.com/"]
+               	            "link1": ["N/A", ""]
                            }
 			},
 			{
