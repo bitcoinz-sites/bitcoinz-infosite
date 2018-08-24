@@ -1624,7 +1624,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"category": "IP.Board Nexus Payment Module",
 			"status": "Now live!",
-			"description": "25,774 BTCZ paid for active months",
+			"description": "IP.Board MOdule",
 			"links": {
                	            "link1": ["GitHub", "https://github.com/JordanGreenies/btcz.in_ipboard"]
                            }
@@ -1647,7 +1647,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"category": "BitcoinZ Forums",
 			"status": "Launched",
-			"description": "25,774 BTCZ paid for active months",
+			"description": "BitcoinZ Forums",
 			"links": {
                	            "link1": ["Visit Forums", "https://forum.btcz.rocks/"]
                            }
@@ -1658,7 +1658,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"category": "WooCommerce",
 			"status": "Now live!",
-			"description": "25,774 BTCZ paid for active months",
+			"description": "WooCommerce Module",
 			"links": {
                	            "link1": ["GitHub", "https://github.com/JordanGreenies/btcz.in_woocommerce"]
                            }
@@ -1722,13 +1722,35 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "category": "Mining Operating System",
                         "status": "Live / Beta",
                         "description": "ZhashOS: Linux based USB bootable mining operation system - dev: Overdrive5 @ Discord",
                         "links": {
                             "link1": ["ZhashOS", "http://zhashos.altcap.biz/"]
+                           }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "category": "Explorer domain",
+                        "status": "Renewed - 1 year",
+                        "description": "0.002704 from BTC chest",
+                        "links": {
+                            "link1": ["Transaction Details", "https://www.blocktrail.com/BTC/tx/3bc5e8a6c8f56eac9347c58fcc66bd64b16747b223415e320a93434d542663f6"]
+                           }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "category": "Explorer server",
+                        "status": "Renewed - 1 year",
+                        "description": "520,000 BTCZ (~$480) from BTCZ chest",
+                        "links": {
+                            "link1": ["Transaction Detail", "https://insight.bitpay.com/tx/4b3ba0e5369e71fa7d3cb9ec700d55df7cf560bd2398398679589b25bd9cc7b3"]
                            }
                         }
 
