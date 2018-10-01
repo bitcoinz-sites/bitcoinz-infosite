@@ -363,6 +363,18 @@ settings.panels = {
                         "links": {
                                 "link1": ["Details & Results", "https://forum.btcz.rocks/t/bitcoinz-press-releases-to-coin-media-outlets-x7/632"]
                                 }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "type": "Community Funding - VaultZ",
+                        "name": "Updating node source to split a percentage of block reward to community fee",
+                        "budget": "N/A",
+                        "status": "Voting in progress",
+                        "links": {
+                                "link1": ["Details", "https://forum.btcz.rocks/t/vote-here-the-vaultz-percentage-community-fee/866"]
+                                }
                         }
 
 
@@ -505,8 +517,8 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "description": "BitcoinZ (BTCZ) Dev Team UNMASKED - Seth Estrada",
                         "language": "English",
                         "links": {
@@ -644,8 +656,8 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "type": "Mining",
                         "description": "AMD Miner",
                         "web_link": "",
@@ -951,10 +963,10 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "description": "Bounty - Start Accepting BitcoinZ As Payment",
-                        "status": "In Progress",
+                        "status": "Expired",
                         "datelaunched": "05 / 10 / 2018",
                         "links": {
                             "link1": ["How-To", "https://steemit.com/bitcoinz/@thecoinkings/how-to-accept-bitcoinz-as-a-payment-method-for-a-business"],
@@ -964,10 +976,10 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "description": "Jalapeno.io Seed Wallet for Gaming Launch",
-                        "status": "In Progress",
+                        "status": "Expired",
                         "datelaunched": "05 / 10 / 2018",
                         "links": {
                             "link1": ["Details / Seed Wallet", "https://seed.jalapen.io/"],
@@ -994,8 +1006,8 @@ settings.panels = {
 		"info": [
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "name": "Exmo",
                         "cost": "4 BTC + 1 BTC in BTCZ + 5 BTC after listing",
                         "status": "Active",
@@ -1733,8 +1745,8 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "category": "Explorer domain",
                         "status": "Renewed - 1 year",
                         "description": "0.002704 from BTC chest",
@@ -1744,13 +1756,24 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "category": "Explorer server",
                         "status": "Renewed - 1 year",
                         "description": "520,000 BTCZ (~$480) from BTCZ chest",
                         "links": {
-                            "link1": ["Transaction Detail", "https://insight.bitpay.com/tx/4b3ba0e5369e71fa7d3cb9ec700d55df7cf560bd2398398679589b25bd9cc7b3"]
+                            "link1": ["Transaction Details", "https://insight.bitpay.com/tx/4b3ba0e5369e71fa7d3cb9ec700d55df7cf560bd2398398679589b25bd9cc7b3"]
+                           }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "true",
+                        "highlight": "success", // danger = red; success = green;
+                        "category": "TxtZ (Servicing Switzerland)",
+                        "status": "Active",
+                        "description": "TxtZ maintained by Marcelus",
+                        "links": {
+                            "link1": ["Details", "https://forum.btcz.rocks/t/txtz-wallet-bitcoinz-sms-based-wallet/818"]
                            }
                         }
 
