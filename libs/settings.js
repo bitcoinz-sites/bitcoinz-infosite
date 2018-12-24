@@ -1027,18 +1027,6 @@ settings.panels = {
                            }
 			},
                         {
-                        "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
-                        "name": "Yobit.net",
-                        "cost": "0.20 BTC (0.06 BTC paid from community funds)",
-                        "status": "Active",
-                        "links": {
-                            "link1": ["Trade Page - Pending", ""],
-                            "link2": ["Payment Details", "https://docs.google.com/document/d/1gdVwfvkvm96WNKVxci-nJtvvn68wC8oLbu6Qw8hIW1Q/edit?usp=sharing"]
-                           }
-                        },
-			{
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
