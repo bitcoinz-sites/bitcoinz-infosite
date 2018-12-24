@@ -10,8 +10,7 @@ settings.theme = "flatly";
 
 settings.navright = {
 	"topright": {
-                  "nav1": ["Site", "https://btcz.rocks"],
-		  "nav2": ["Guides", "https://bitcoinzguiding.ovh"]
+                  "nav1": ["Site", "https://btcz.rocks"]
                    }
                },
 
