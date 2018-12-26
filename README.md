@@ -1,6 +1,6 @@
 # bitcoinz-infosite install
 
-git clone https://github.com/btcz/bitcoinz-infosite.git
+git clone https://github.com/bitcoinz-sites/bitcoinz-infosite.git
 
 npm install
 
