@@ -571,7 +571,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"type": "Website",
 			"description": "Donation Funds Tracker",
-			"web_link": "https://btcz.fund/",
+			"web_link": "https://fund.btcz.rocks/",
 			"links": {
      			    "link1": ["GitHub", "https://github.com/bitcoinz-sites/bitcoinz-donation-page"]
                           }
