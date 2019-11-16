@@ -366,11 +366,11 @@ settings.panels = {
                         {
                         "numb": "",
                         "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
                         "type": "Community Funding - VaultZ",
                         "name": "Updating node source to split a percentage of block reward to community fee",
                         "budget": "N/A",
-                        "status": "Voting in progress",
+                        "status": "Passed",
                         "links": {
                                 "link1": ["Details", "https://forum.btcz.rocks/t/vote-here-the-vaultz-percentage-community-fee/866"]
                                 }
@@ -1767,15 +1767,26 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
-                        "highlight": "success", // danger = red; success = green;
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
                         "category": "TxtZ (Servicing Switzerland)",
                         "status": "Active",
                         "description": "TxtZ maintained by Marcelus",
                         "links": {
                             "link1": ["Details", "https://forum.btcz.rocks/t/txtz-wallet-bitcoinz-sms-based-wallet/818"]
                            }
-                        }
+                        },
+                        {
+                        "numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+                        "category": "VaultZ",
+                        "status": "Active",
+                        "description": "VaultZ Implemented 5% per block 625BTCZ",
+                        "links": {
+                            "link1": ["Details", "https://forum.btcz.rocks/t/vote-here-the-vaultz-percentage-community-fee/866"]
+                           }
+                        },
 
                    ]
               },
