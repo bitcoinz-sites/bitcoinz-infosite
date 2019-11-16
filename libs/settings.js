@@ -365,7 +365,7 @@ settings.panels = {
                         },
                         {
                         "numb": "",
-                        "isnew": "true",
+                        "isnew": "false",
                         "highlight": "", // danger = red; success = green;
                         "type": "Community Funding - VaultZ",
                         "name": "Updating node source to split a percentage of block reward to community fee",
