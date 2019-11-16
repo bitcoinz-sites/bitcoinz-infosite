@@ -1019,80 +1019,12 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
-			"name": "TradeSatoshi",
-			"cost": "N/A",
-			"status": "Active",
-			"links": {
-               	            "link1": ["Trade Page", "https://tradesatoshi.com/Exchange?market=BTCZ_BTC"]
-                           }
-			},
-                        {
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"name": "CryptoBroker",
-			"cost": "N/A",
-			"status": "Active",
-			"links": {
-               	            "link1": ["Trade Page", "https://trade.cryptobroker.io/markets/btczbtc"]
-                           }
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
-			"name": "C-Cex",
-			"cost": "4 BTC",
-			"status": "Inactive",
-			"links": {
-               	            "link1": ["N/A", ""]
-                           }
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"name": "Stocks.Exchange",
-			"cost": "0.08 BTC + 0.02 ETH pair",
-			"status": "Active",
-			"links": {
-               	            "link1": ["Trade Page", "https://stocks.exchange/trade/BTCZ/BTC"],
-               	            "link2": ["Payment Details", "https://docs.google.com/document/d/12e7nJwGA3LeVKw0BAHbxtDd8Qmw9k90MUFNvBa39yOs/edit?usp=sharing"]
-                           }
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
 			"name": "BTC-Alpha",
 			"cost": "1.5 BTC or 1 BTC + 0.5 BTC in BTCZ ",
 			"status": "Active",
 			"links": {
                	            "link1": ["Trade Page", "https://btc-alpha.com/exchange/BTCZ_BTC/"],
                	            "link2": ["Payment Details", "https://docs.google.com/document/d/12e7nJwGA3LeVKw0BAHbxtDd8Qmw9k90MUFNvBa39yOs/edit?usp=sharing"]
-                           }
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"name": "BarterDEX",
-			"cost": "100,000 BTCZ",
-			"status": "Active (Electrum mode enabled)",
-			"links": {
-               	            "link1": ["Download Now", "https://github.com/KomodoPlatform/BarterDEX/releases"]
-                           }
-			},
-			{
-			"numb": "",
-                        "isnew": "false",
-                        "highlight": "", // danger = red; success = green;
-			"name": "Exrates.me",
-			"cost": "2 BTC",
-			"status": "Active",
-			"links": {
-               	            "link1": ["Site Page", "https://exrates.me/"],
-               	            "link2": ["Payment Details", "https://docs.google.com/document/d/1RDa4gyp9i3ZoqQnve6wqaAU0CMoIBdPKsZiE_pBI3WA/edit?usp=sharing"]
                            }
 			},
 			{
@@ -1111,11 +1043,80 @@ settings.panels = {
 			"numb": "",
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
-			"name": "OctaEx.com",
-			"cost": "Vote Won",
+			"name": "(STEX) Stocks.Exchange",
+			"cost": "0.08 BTC + 0.02 ETH pair",
 			"status": "Active",
 			"links": {
-               	            "link1": ["Trade Page", "https://octaex.com/trade/index/market/btcz_btc"]
+               	            "link1": ["Trade Page", "https://stocks.exchange/trade/BTCZ/BTC"],
+               	            "link2": ["Payment Details", "https://docs.google.com/document/d/12e7nJwGA3LeVKw0BAHbxtDd8Qmw9k90MUFNvBa39yOs/edit?usp=sharing"]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"name": "Graviex",
+			"cost": "N/A",
+			"status": "Active",
+			"links": {
+               	            "link1": ["Trade Page", "https://graviex.net/markets/btczbtc"],
+               	            "link2": ["N/A", ""]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"name": "TradeSatoshi",
+			"cost": "N/A",
+			"status": "Inactive",
+			"links": {
+               	            "link1": ["N/A", ""]
+                           }
+			},
+                        {
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"name": "CryptoBroker",
+			"cost": "N/A",
+			"status": "Inactive",
+			"links": {
+               	            "link1": ["N/A", ""]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"name": "C-Cex",
+			"cost": "4 BTC",
+			"status": "Inactive",
+			"links": {
+               	            "link1": ["N/A", ""]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"name": "BarterDEX",
+			"cost": "100,000 BTCZ",
+			"status": "Active (Electrum mode enabled)",
+			"links": {
+               	            "link1": ["N/A", ""]
+                           }
+			},
+			{
+			"numb": "",
+                        "isnew": "false",
+                        "highlight": "", // danger = red; success = green;
+			"name": "Exrates.me",
+			"cost": "2 BTC",
+			"status": "Inactive",
+			"links": {
+               	            "link1": ["Site Page", "https://exrates.me/"],
+               	            "link2": ["Payment Details", "https://docs.google.com/document/d/1RDa4gyp9i3ZoqQnve6wqaAU0CMoIBdPKsZiE_pBI3WA/edit?usp=sharing"]
                            }
 			},
                         {
@@ -1146,7 +1147,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "VICex.io",
 			"cost": "TBD",
-			"status": "Planned listing / vote won",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Won", "https://acc.vicex.io/acc/listing"]
                            }
@@ -1154,10 +1155,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "Dontoshi",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://dontoshi.featureupvote.com/suggestions/7500/bitcoinz-btcz"]
                            }
@@ -1165,10 +1166,10 @@ settings.panels = {
                         {
                         "numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
                         "name": "LESCOVEX",
                         "cost": "TBD",
-                        "status": "Voting now",
+                        "status": "Inactive",
                         "links": {
                             "link1": ["Voting Page", "https://lescovex.featureupvote.com/suggestions/6864/bitcoinz-btcz"]
                            }
@@ -1176,10 +1177,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "Coinpulse",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://request.coinpulse.io/suggestions/5767/bitcoinz-btcz"]
                            }
@@ -1187,10 +1188,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "Coindeal",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://coindeal.com/vote"]
                            }
@@ -1198,10 +1199,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "Next.exchange",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://nextexchange.featureupvote.com/suggestions/2405/bitcoinz-btcz"]
                            }
@@ -1212,7 +1213,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Eucoin.io",
 			"cost": "TBD",
-			"status": "Need voting page",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Site Page", "http://eucoin.io/"]
                            }
@@ -1220,10 +1221,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "CoinFalcon",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://feedback.coinfalcon.com/coin-request/p/bitcoinz-btcz-1"]
                            }
@@ -1234,7 +1235,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "CobinHood",
 			"cost": "TBD",
-			"status": "Need voting page",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Site Page", "https://cobinhood.com/"]
                            }
@@ -1242,10 +1243,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "Altcoin.io",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://feedback.altcoinexchange.com/suggestions/2021/bitcoinz-btcz-pow-equihash-algorithm"]
                            }
@@ -1253,10 +1254,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "Mercatox",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://mercatox.com/coins/list?name=btcz"]
                            }
@@ -1264,10 +1265,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "CryptalDash",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://www.cryptaldash.com/new-coin-listing?search=Btcz"]
                            }
@@ -1275,10 +1276,10 @@ settings.panels = {
 			{
 			"numb": "",
                         "isnew": "false",
-                        "highlight": "danger", // danger = red; success = green;
+                        "highlight": "", // danger = red; success = green;
 			"name": "Cex.io",
 			"cost": "TBD",
-			"status": "Voting now",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Voting Page", "https://support.cex.io/hc/en-us/community/posts/115002759994-NEW-BitcoinZ-BTCZ-Please-Vote"]
                            }
@@ -1288,8 +1289,8 @@ settings.panels = {
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
 			"name": "CoinEgg.com",
-			"cost": "Pending Response",
-			"status": "Email Submitted",
+			"cost": "TBD",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Site Page", "https://www.coinegg.com/trade/"],
                             "link2": ["Details", "https://docs.google.com/document/d/1vXMZLYmHUKnQ5JF4FdOW1emq4HqEd0zhwOyDaKd3idk/edit?usp=sharing"]
@@ -1300,8 +1301,8 @@ settings.panels = {
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
 			"name": "Binance",
-			"cost": "10-25 BTC for BNB ",
-			"status": "Need funds",
+			"cost": "10-25 BTC for BNB",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Submit", "https://drive.google.com/open?id=1EHpvQRWh_MKiYFw0PPQPAIMVDCGUgpPy4pk6EHBJljQ"],
                             "link2": ["Site Page", "https://www.binance.com/"]
@@ -1313,7 +1314,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "exvo",
 			"cost": "0,25 BTC ",
-			"status": "Need funds",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Submit", "https://exvo.io/documents/addcoin"],
                             "link2": ["Site Page", "https://www.exvo.io/"]
@@ -1324,8 +1325,8 @@ settings.panels = {
                         "isnew": "false",
                         "highlight": "", // danger = red; success = green;
 			"name": "Bittrex",
-			"cost": "Free",
-			"status": "Stop submitting requests",
+			"cost": "N/A",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Site Page", "https://www.bittrex.com/"]
                            }
@@ -1336,7 +1337,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Coss.io",
 			"cost": "200,000 COSS (~10k USD)",
-			"status": "Need submissions",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Submit", "https://drive.google.com/open?id=1gnod_vj0N0u1f93TGq24DePtPIN9TRublQO7Kv26L78"],
                             "link2": ["Site Page", "https://exchange.coss.io/"]
@@ -1348,7 +1349,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Kucoin.com",
 			"cost": "TBD",
-			"status": "Need submissions",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Submit", "https://drive.google.com/open?id=1yhsPyrXQGHj6q4r2i-aNTv2sppKCFmAMW6aduA0TSXQ"],
                             "link2": ["Site Page", "https://www.kucoin.com/"]
@@ -1360,7 +1361,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Poloniex.com",
 			"cost": "TBD",
-			"status": "Need submissions",
+			"status": "Inactive",
 			"links": {
                	            "link1": ["Submit", "https://drive.google.com/open?id=1-oTYDSzbf5icg9tOvtnzRWuyifoLlGYTLIyczFhXvuY"],
                             "link2": ["Site Page", "https://www.poloniex.com/exchange"]
@@ -1372,7 +1373,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Coinexchange.io",
 			"cost": "4 BTC",
-			"status": "Need funding",
+			"status": "Inactive",
 			"links": {
                             "link1": ["Site Page", "https://www.coinexchange.io/"]
                            }
@@ -1383,7 +1384,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Cryptopia",
 			"cost": "> 100k USD",
-			"status": "Need funding",
+			"status": "Inactive",
 			"links": {
                             "link1": ["Site Page", "https://www.cryptopia.co.nz/"],
                             "link2": ["Paytopia", "https://www.cryptopia.co.nz/Paytopia"]
@@ -1395,7 +1396,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "HitBTC",
 			"cost": "20 BTC",
-			"status": "Need funding",
+			"status": "Inactive",
 			"links": {
                             "link1": ["Site Page", "https://hitbtc.com/"]
                            }
@@ -1406,7 +1407,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Livecoin",
 			"cost": "6 BTC",
-			"status": "Need funding",
+			"status": "Inactive",
 			"links": {
                             "link1": ["Site Page", "https://www.livecoin.net/"]
                            }
@@ -1417,7 +1418,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "Openledger.io",
 			"cost": "$10,000 USD ",
-			"status": "Need funding",
+			"status": "Inactive",
 			"links": {
                             "link1": ["Site Page", "https://openledger.info/"]
                            }
@@ -1428,7 +1429,7 @@ settings.panels = {
                         "highlight": "", // danger = red; success = green;
 			"name": "CoinRail",
 			"cost": "5 BTC",
-			"status": "Need funding",
+			"status": "Inactive",
 			"links": {
                             "link1": ["Site Page", "https://coinrail.co.kr/"]
                            }
